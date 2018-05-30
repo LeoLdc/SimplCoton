@@ -11,23 +11,24 @@
 
       <title>SimplCoton</title>
       <style>
-      .container{
+      .containerun .containerdeux {
         width:199px;
         height:148px;
         position:relative;
+        padding:20px;
       }
-      .container img {
+      .containerun .containerdeux img {
         position:absolute;
 
       }
-      .container.desc {
+       .containerun .containerdeux .descun .descdeux {
         width:199px;
         height:148px;
         background-color: #000;
         position: absolute;
-        color: white;
-        opacity:0.8;
-        display:none;
+        color: gray;
+        opacity:0.5;
+        display:no;
       }
       </style>
     </head>
@@ -46,20 +47,16 @@
 
         <div class="flexco">
 
-          <div class="container">
+
 
             <div class="image">
 
               <img src="images/simplon.jpg" alt="Simplon">
-              <div class="desc">
-
-                <p>Simplon</p>
-
-              </div>
 
             </div>
 
-         </div>
+              
+
 
          <a title="lienun" href="https://simplon.co/">
          Cliquez ici</a>
@@ -68,30 +65,20 @@
 
       <div class="flexco">
 
-        <div class="container">
-
           <div class="image">
 
             <img src="images/presentation.jpg" alt="Présentation">
 
-            <div class="desc">
-
-              <p>Présentation de Simplon</p>
-
-            </div>
-
           </div>
 
-         </div>
+
+
+            </div>
 
          <a title="liendeux" href="https://simplon.co/">
        Cliquez ici</a>
 
-
-
       </div>
-
-    </div>
 
     </body>
 
